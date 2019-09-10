@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact-Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js">
+    </script>
+
+
+<script type="text/javascript" src="javascript.js"></script>
+<link src="style.css" type="text/style">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" style="padding-top: 20px;">
+               
+                <form action="" id="myform" name="contact-form"  onsubmit="return malfunction()">
+                    <div class="row">
+                    <div class="input_field">
+                        Name : <input type="text" id="name" name="name" maxlength="32" pattern="([\w]+[\s]*[\w]*){2,32}"  
+                        placeholder="Name" required>
+                    </div>
+                    <div class="input_field" style="padding-left: 30px;">
+                        Mobile Number : <input type="text" id="number" name="number" pattern="[789][0-9]{9}"
+                            placeholder="Mobile Number" required>
+                    </div>
+                    <div class="input_field" style="padding-left: 20px;">
+                        <input type="submit" name="Add" id="submit">
+                    </div>
+                </div>
+                </form>
+            
+            </div>
+
+            <!-- <p id="print"></p> -->
+        </div>
+    </div>
+<div class="container">
+        <div class="row">
+    <div class="col-6">
+<h2>Name</h2>
+<p id="printname"></p>
+    </div>
+    <div class="col-6">
+<h2>Contact</h2>
+<p id="printnumber"></p>
+        </div>
+        </div>
+<!-- <div class="row">
+
+</div> -->
+</div>
+
+</body>
+
+</html>
